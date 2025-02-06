@@ -9,11 +9,13 @@
 .container {
     width: 1348px;
     margin: 0 auto;
+   
 }
 
 .header {
     width: 1116px;
     margin: 0 auto;
+
 }
 
 .top-header {
@@ -21,6 +23,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 12px 0;
+   
 }
 
 .top-left {
@@ -130,39 +133,52 @@
 .ser {
     display: flex;
     align-items: center;
-    position: relative;
-    width: 100%;
+    /* position: relative; */
+    width: 90%;
+   /* border: 1px solid; */
+    height: 59px;
+    border-radius: 50px;
  
 }
 
 .ser select {
     width: 180px;
     padding: 16px 10px;
-    border-radius: 50px 0 0 50px;
+    border-radius: 100px;
     background-color: #FECF29;
     font-size: 18px;
     border: none;
-    
+    position: absolute;
     cursor: pointer;
+   
+    z-index: 2;
+    ;
 }
 
 
 .search {
-    position: relative;
+  position: relative;
+
+  z-index: 1;
+  width: 100%;
+
 }
 
 .search input {
-    width: 100%;
-    padding: 16px 60px 16px 20px; 
-    border-radius: 0 50px 50px 0;
+    width: 80%;
+    padding: 18px  40px; 
+    border-radius:  50px ;
     font-size: 18px;
-    border: 1px solid #ccc;
+    padding-left: 200px;
+   border: none;
+    border-style: none;
+    cursor: pointer;
   
 }
 
 .search i {
     position: absolute;
-    right: 20px;
+    right: 22%;
     top: 40%;
     font-size: 20px;
     color: #001846;
